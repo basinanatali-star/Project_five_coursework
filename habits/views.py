@@ -33,5 +33,3 @@ class HabitViewSet(viewsets.ModelViewSet):
 
         serializer = self.get_serializer(habits, many=True)
         return Response(serializer.data)
-
-
